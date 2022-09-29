@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Practica Javacript Prospercity</title>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <nav class="slidemenu">
+  
+            <!-- Item 1 -->
+            <input type="radio" name="slideItem" id="slide-item-1" class="slide-toggle" checked/>
+            <label for="slide-item-1"><p class="icon">♬</p><span>Home</span></label>
+            
+            <!-- Item 2 -->
+            <input type="radio" name="slideItem" id="slide-item-2" class="slide-toggle"/>
+            <label for="slide-item-2"><p class="icon">★</p><span>About</span></label>
+            
+            <!-- Item 3 -->
+            <input type="radio" name="slideItem" id="slide-item-3" class="slide-toggle"/>
+            <label for="slide-item-3"><p class="icon">✈</p><span>Folio</span></label>
+            
+            <!-- Item 4 -->
+            <input type="radio" name="slideItem" id="slide-item-4" class="slide-toggle"/>
+            <label for="slide-item-4"><p class="icon">✎</p><span>Blog</span></label>
+            
+            <div class="clear"></div>
+            
+            <!-- Bar -->
+            <div class="slider">
+              <div class="bar"></div>
+            </div>
+            
+          </nav>
+    </header>
+    <main>
+        <h1>Bienvenidos a las noticias</h1>
+
+        <div class="container">
+            <section class="section-a">
+                <h2>
+                    Hubble y Webb capturan el momento en el que misión de la NASA impacta contra un asteroide
+                </h2>
+                <p>
+                    Por primera vez en la historia, los telescopios Hubble y Webb capturaron un evento astrológico 
+                    al mismo momento. Fue la misión de la NASA que impactó contra un asteroide para cambiar su recorrido.
+                </p>
+                <button>Leer Mas</button>
+            </section>
+            <section class="section-b">
+                <h2>
+                    Explotarlos vs. desviarlos: ¿qué opciones existen para evitar que un asteroide choque con la Tierra?
+                </h2>
+                <p>
+                    Si en algún momento un asteroide amenaza con impactar la Tierra, ¿por qué no los hacemos explotar en 
+                    el espacio, como ocurrió en la película de ciencia ficción "Armageddon"? Expertos de la NASA opinan 
+                    que es más favorable tratar de desviarlos. Hace poco, un foro internacional denominado Comisión de 
+                    Planificación Espacial reunió a 18 agencias espaciales para evaluar qué sería lo mejor para desviar
+                    un asteroide, en función de su tamaño y trayectoria.
+                </p>
+                <button>Read More</button>
+            </section>
+            <section class="section-c">
+                <p id="para">Cualquier texto que cambiará de color</p>
+                <button onclick="changeColor('blue');">Azul</button>
+                <button onclick="changeColor('red');">Rojo</button>
+            </section>
+        </div>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
