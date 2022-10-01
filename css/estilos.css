@@ -88,4 +88,64 @@
   .slidemenu #slide-item-2:checked ~ .slider .bar{ margin-left: 25%; }
   .slidemenu #slide-item-3:checked ~ .slider .bar{ margin-left: 50%; }
   .slidemenu #slide-item-4:checked ~ .slider .bar{ margin-left: 75%; }
+
+
+.titleGeneral{
+    font-size: 4rem;
+    width: 45%;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    border: 8px solid black;
+    background-color: #666;
+
+  }
+
+  
+
+  .h2-b {
+    background-color: rgb(216, 50, 50);
+    font-size: 2rem;
+    text-align: center;
+    border-bottom: 2px solid black;
+    color: white;
+  }
+    
+  .container-b {
+    position: relative;
+    display: flex;
+    color: white;
+    background-color: black;
+    
+  }
+
+  .text {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    font-size: 2rem;
+  }
+
+  .imgAsteroide {
+    width: 50%;
+    float: right;
+    
+  }
+
+
+
+
+  .buttomRead {
+    text-align: center;
+  }
+
+
+  .buttom {
+    height: 50px;
+    width: 150px;
+    font-size: 1.5rem;
+    background-color: rgb(216, 50, 50);
+    color: white;
+  }
+  
   
