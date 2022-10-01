@@ -20,7 +20,11 @@ main {
 
 h1 {
   font-size: 4rem;
+  background-color: #0062d2;
+  color: #fefefe;
+
 }
+
 
 h2 {
   font-size: 3rem;
@@ -44,6 +48,7 @@ p{
     max-width: 600px;
     margin: 50px auto;
     overflow: hidden;
+    
   }
   
   .slidemenu label{
