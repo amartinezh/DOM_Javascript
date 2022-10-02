@@ -1,7 +1,19 @@
-*{
-    margin: 0;
-    padding: 0;
-  }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+.principal{
+  border-radius: 2rem;
+  background-color: #BFB5AA;
+  margin: 5rem;
+  padding: 5rem;
+  font-size: 2rem;
+}
   
   .clear{
     clear: both;
@@ -14,8 +26,8 @@
   
   .slidemenu{
     font-family: arial, sans-serif;
-    max-width: 600px;
-    margin: 50px auto;
+    max-width: 60rem;
+    margin: 5rem auto;
     overflow: hidden;
   }
   
@@ -36,18 +48,18 @@
   
   .slidemenu label span{
     display: block;
-    padding: 10px;    
+    padding: 1rem;    
   }
   
   .slidemenu label .icon{
-    font-size: 20px;
-    border: solid 2px #333;
+    font-size: 2rem;
+    border: solid 0.2rem #333;
     text-align: center;
-    height: 50px;
-    width: 50px;
+    height: 5rem;
+    width: 5rem;
     display: block;
     margin: 0 auto;
-    line-height: 50px;
+    line-height: 5rem;
     border-radius: 50%;
   }
   
@@ -55,18 +67,18 @@
   
   .slider{
     width: 100%;
-    height: 5px;
+    height: 5rem;
     display: block;
     background: #ccc;
-    margin-top: 10px;
-    border-radius: 5px;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
   }
   
   .slider .bar{
     width: 25%;
-    height: 5px;
+    height: 0.5rem;
     background: #333;
-    border-radius: 5px;
+    border-radius: 0.5rem;
   }
   
   /*Animations*/
@@ -82,6 +94,35 @@
     opacity: 1;
   }
   
+  .blue {
+    color: #FCFEFF;
+    background-color: #222673;
+    border-radius: 4rem;
+    width: 10rem;
+  }
+
+  .red {
+    color: #FCFEFF;
+    background-color: #D40600;
+    border-radius: 4rem;
+    width: 10rem;
+  }
+
+  .leer {
+    color: #FCFEFF;
+    background-color: #314259;
+    border-radius: 4rem;
+    width: 10rem;
+  }
+
+  .read {
+    color: #FCFEFF;
+    background-color: #314259;
+    border-radius: 4rem;
+    width: 10rem;
+  }
+
+  
   
   
   .slidemenu #slide-item-1:checked ~ .slider .bar{ margin-left: 0; }
@@ -89,3 +130,10 @@
   .slidemenu #slide-item-3:checked ~ .slider .bar{ margin-left: 50%; }
   .slidemenu #slide-item-4:checked ~ .slider .bar{ margin-left: 75%; }
   
+  @media screen {
+      
+  }
+
+  @media screen {
+    
+  }
