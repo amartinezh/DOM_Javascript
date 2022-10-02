@@ -89,3 +89,52 @@
   .slidemenu #slide-item-3:checked ~ .slider .bar{ margin-left: 50%; }
   .slidemenu #slide-item-4:checked ~ .slider .bar{ margin-left: 75%; }
   
+main h1{
+  color: black;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container .section-a {
+  width: 30%;
+  padding: 30px;
+  border: 1px solid grey;
+  border-radius: 5%;
+  margin-bottom: 30px;
+}
+
+.container .section-a:active{
+  box-shadow: 10px 10px 8px 10px #888888;
+}
+
+
+.container .section-a h2{
+  padding-bottom: 15px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.container .section-a p{
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.btn-container{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+}
+
+.container .section-a button{
+  width: 30%;
+}
+.section-b{
+  
+}
