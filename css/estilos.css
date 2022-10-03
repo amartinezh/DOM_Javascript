@@ -105,3 +105,7 @@
   .slidemenu #slide-item-3:checked ~ .slider .bar{ margin-left: 50%; }
   .slidemenu #slide-item-4:checked ~ .slider .bar{ margin-left: 75%; }
   
+  .title-2 {
+    justify-content: left;
+    font-weight: bold;
+  }
