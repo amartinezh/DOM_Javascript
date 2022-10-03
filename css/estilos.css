@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -8,26 +8,37 @@ html {
     font-size: 62.5%;
 }
 
-/* .container {
-  display: flex;
-  flex-wrap: wrap;
-} */
+
 
 main {
   display: flex;
   flex-wrap: wrap;
 }
 
+.section-a {
+  padding: 25px;
+}
+
+.section-b {
+  padding: 25px;
+}
+
+.section-c {
+  padding: 25px;
+}
+
 h1 {
+  padding: 25px;
   font-size: 4rem;
-  background-color: #0062d2;
-  color: #fefefe;
+  /*background-color: #0062d2;*/
+  color: #0062d2;
 
 }
 
 
 h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
+  color: #333366;
 }
 
 p{
@@ -45,9 +56,11 @@ p{
   
   .slidemenu{
     font-family: arial, sans-serif;
-    max-width: 600px;
-    margin: 50px auto;
+    /*max-width: 600px; */
+    /*margin: 50px auto; */
     overflow: hidden;
+    background-color: #0062d2;
+    padding: 20px;
     
   }
   
@@ -56,14 +69,16 @@ p{
     text-align: center;
     display: block;
     float: left;
-    color: #333;
+    /*color: #333; */
+    color: #ccc;
     opacity: 0.2;
   
   }
   
   .slidemenu label:hover{
     cursor: pointer;
-    color: #666;
+    /*color: #666;*/
+    color: azure;
   }
   
   .slidemenu label span{
@@ -73,7 +88,8 @@ p{
   
   .slidemenu label .icon{
     font-size: 20px;
-    border: solid 2px #333;
+   /* border: solid 2px #333; */
+   border: solid 2px #fefefe;
     text-align: center;
     height: 50px;
     width: 50px;
