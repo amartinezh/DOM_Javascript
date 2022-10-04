@@ -7,9 +7,14 @@
 html {
   font-size: 62.5%;
 }
+
+.body {
+  background-image: linear-gradient( 135deg, #3B2667 10%, #BC78EC 100%);
+}
+
 .principal{
   border-radius: 2rem;
-  background-color: #BFB5AA;
+  background-color: #AE97CA;
   margin: 5rem;
   padding: 5rem;
   font-size: 2rem;
@@ -25,6 +30,8 @@ html {
   }
   
   .slidemenu{
+    background-color: #AE97CA;
+    border-radius: 2rem;
     font-family: arial, sans-serif;
     max-width: 60rem;
     margin: 5rem auto;
@@ -120,6 +127,27 @@ html {
     background-color: #314259;
     border-radius: 4rem;
     width: 10rem;
+  }
+
+  .footer {
+    border-radius: 2rem;
+    background-color: #AE97CA;
+    margin: 5rem;
+    padding: 5rem;
+    font-size: 2rem;
+  }
+
+  .ul {
+    list-style-type: none;
+  }
+  .mas_texto {
+    display: none;
+  }
+.more_text {
+  display: none;
+}
+  .show {
+    display: block;
   }
 
   
