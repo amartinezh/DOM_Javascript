@@ -152,29 +152,18 @@ html {
   }
 
   .img {
-    width: 50rem;
+    width: 50%;
     margin: 1rem;
     padding: 1rem;
   }
 
   .img2 {
-    width: 50rem;
+    width: 50%;
     margin: 1rem;
     padding: 1rem;
   }
-
-  
-  
   
   .slidemenu #slide-item-1:checked ~ .slider .bar{ margin-left: 0; }
   .slidemenu #slide-item-2:checked ~ .slider .bar{ margin-left: 25%; }
   .slidemenu #slide-item-3:checked ~ .slider .bar{ margin-left: 50%; }
   .slidemenu #slide-item-4:checked ~ .slider .bar{ margin-left: 75%; }
-  
-  @media screen {
-      
-  }
-
-  @media screen {
-    
-  }
