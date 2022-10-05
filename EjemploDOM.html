@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <title>Practica Javacript Prospercity</title>
-    <link rel="shortcut icon" href="#">
+    <link rel="shortcut icon" href="./img/periodico.png">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
-<body>
+<body class="body">
     <header>
         <nav class="slidemenu">
   
@@ -34,7 +34,7 @@
             
           </nav>
     </header>
-    <main>
+    <main class="principal">
         <h1>Bienvenidos a las noticias</h1>
 
         <div class="container">
@@ -42,16 +42,26 @@
                 <h2>
                     Hubble y Webb capturan el momento en el que misión de la NASA impacta contra un asteroide
                 </h2>
+                <img class="img" id="img" src="./img/imagen.jpg" alt="Es una imagen">
                 <p>
                     Por primera vez en la historia, los telescopios Hubble y Webb capturaron un evento astrológico 
                     al mismo momento. Fue la misión de la NASA que impactó contra un asteroide para cambiar su recorrido.
                 </p>
-                <button>Leer Mas</button>
+                <div class="mas_texto" id="mas_texto">
+                    <p>
+                        Este lunes, 26 de septiembre, la Nasa protagonizó un hecho sin precedentes: el choque planeado de una de sus misiones contra un asteroide no peligroso. El objetivo era convertirse en la primera prueba de defensa planetaria del mundo.
+                    </p>
+                    <p>
+                        Esta misión, explicó la Nasa, “ayudará a determinar si estrellar deliberadamente una nave espacial contra un asteroide es una forma efectiva de desviar dicho asteroide”. La misión viajó millones de kilómetros de forma autónoma antes de impactar deliberadamente contra Dimorphos.
+                    </p>
+                </div>
+                <button class="leer" id="leer">Leer Mas</button>
             </section>
             <section class="section-b">
                 <h2>
                     Explotarlos vs. desviarlos: ¿qué opciones existen para evitar que un asteroide choque con la Tierra?
                 </h2>
+                <img class="img2" id="img2" src="./img/imagen-2.webp" alt="Es una imagen">
                 <p>
                     Si en algún momento un asteroide amenaza con impactar la Tierra, ¿por qué no los hacemos explotar en 
                     el espacio, como ocurrió en la película de ciencia ficción "Armageddon"? Expertos de la NASA opinan 
@@ -59,15 +69,30 @@
                     Planificación Espacial reunió a 18 agencias espaciales para evaluar qué sería lo mejor para desviar
                     un asteroide, en función de su tamaño y trayectoria.
                 </p>
-                <button>Read More</button>
+                <div class="more_text" id="more_text">
+                    <p>
+                        Los dos grandes telescopios espaciales de la NASA, Hubble y James Webb trabajaron juntos para capturar el momento en el que una nave espacial se estrelló contra un asteroide como parte de la primera prueba de DART, con la que buscan redireccionar un cuerpo celeste.
+                    </p>
+                    <p>
+                        Esta es la primera vez que ambos aparatos observan simultáneamente el mismo objeto y, además de arrojar increíbles imágenes, otorgan nuevos datos sobre el experimento en el que se busca tener una forma de defensa planetaria.
+                    </p>
+                </div>
+                <button class="read" id="read">Read More</button>
             </section>
             <section class="section-c">
-                <p id="para">Cualquier texto que cambiará de color</p>
-                <button onclick="changeColor('blue');">Azul</button>
-                <button onclick="changeColor('red');">Rojo</button>
+                <p id="para" class="para">Cualquier texto que cambiará de color</p>
+                <button class="blue" onclick="changeColor('blue');">Azul</button>
+                <button  class="red"  onclick="changeColor('red');">Rojo</button>
             </section>
         </div>
     </main>
     <script src="js/main.js"></script>
+    <footer class="footer">
+        <ul class="ul">
+            <li>Colaboradores Prospercity Cohorte 3</li>
+            <li>Equipo JumForce version Jeison</li>
+            <li>2022</li>
+        </ul>
+    </footer>
 </body>
 </html>
