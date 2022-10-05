@@ -9,7 +9,7 @@ html {
 }
 
 .body {
-  background-image: linear-gradient( 135deg, #3B2667 10%, #BC78EC 100%);
+  background-image: linear-gradient( 135deg, #CE9FFC 10%, #7367F0 100%);
 }
 
 .principal{
@@ -30,10 +30,11 @@ html {
   }
   
   .slidemenu{
+    font-size: 3rem;
     background-color: #AE97CA;
     border-radius: 2rem;
     font-family: arial, sans-serif;
-    max-width: 60rem;
+    max-width: 125rem;
     margin: 5rem auto;
     overflow: hidden;
   }
@@ -148,6 +149,18 @@ html {
 }
   .show {
     display: block;
+  }
+
+  .img {
+    width: 50rem;
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  .img2 {
+    width: 50rem;
+    margin: 1rem;
+    padding: 1rem;
   }
 
   
