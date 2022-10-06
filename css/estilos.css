@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
   }
+
+  .title {
+    font-size: 3rem; color: rgba(6, 1, 48, 0.75);
+    background-color: rgba(134, 225, 119, 0.75);
+    height: 4rem;
+    text-align: center;
+  }
   
   .clear{
     clear: both;
@@ -24,14 +31,14 @@
     text-align: center;
     display: block;
     float: left;
-    color: #333;
+    color: rgba(6, 1, 48, 0.75);
     opacity: 0.2;
   
   }
   
   .slidemenu label:hover{
     cursor: pointer;
-    color: #666;
+    color: rgba(134, 225, 119, 0.75);
   }
   
   .slidemenu label span{
@@ -41,7 +48,7 @@
   
   .slidemenu label .icon{
     font-size: 20px;
-    border: solid 2px #333;
+    border: solid 2px rgba(6, 1, 48, 0.75);
     text-align: center;
     height: 50px;
     width: 50px;
@@ -65,7 +72,7 @@
   .slider .bar{
     width: 25%;
     height: 5px;
-    background: #333;
+    background: rgba(6, 1, 48, 0.75);
     border-radius: 5px;
   }
   
@@ -111,7 +118,7 @@ main h1{
 }
 
 .container .section-a:active{
-  box-shadow: 10px 10px 8px 10px #888888;
+  box-shadow: 10px 10px 8px 10px rgba(6, 1, 48, 0.75);
 }
 
 
@@ -135,6 +142,6 @@ main h1{
 .container .section-a button{
   width: 30%;
 }
-.section-b{
+/* .section-b{
   
-}
+} */
