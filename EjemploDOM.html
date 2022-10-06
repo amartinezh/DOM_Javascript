@@ -6,6 +6,7 @@
     <title>Practica Javacript Prospercity</title>
     <link rel="shortcut icon" href="#">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -47,11 +48,18 @@
                 <p>
                     Por primera vez en la historia, los telescopios Hubble y Webb capturaron un evento astrológico 
                     al mismo momento. Fue la misión de la NASA que impactó contra un asteroide para cambiar su recorrido.
-                <section class="imagen">
-                    <figure>
+                <div class = "zoom">
+                    <figure class = "figure">
                         <img src="https://e.rpp-noticias.io/xlarge/2022/10/01/164616_1323550.jpg" alt="Imagen Asteroide">
                     </figure>
-                </section>
+                </div>
+                <p>Haga click en el icono para decir si le gusto o no esta noticia:</p>
+                <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+                <script>
+                function myFunction(x) {
+                x.classList.toggle("fa-thumbs-down");
+                }
+                </script>
                 </p>
                 <button>Leer Mas</button>
             </section>
