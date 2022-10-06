@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <nav class="slidemenu">
   
             <!-- Item 1 -->
@@ -35,39 +35,91 @@
           </nav>
     </header>
     <main>
-        <h1>Bienvenidos a las noticias</h1>
+        <div class="divTitleGeneral">
+            <div class="imgGeneral">
+                <img src="./img/logo_jump-force.png" alt="">
+            </div>
+            <div class="titleGeneral">
+                <h1 >Bienvenidos a las noticias</h1>
+            </div>
+        </div>
 
-        <div class="container">
-            <section class="section-a">
-                <h2>
+        <nav >
+            <ol class="nav">
+                <li><button>  <a href="https://www.lapatria.com/">Principales</a> </button></li>
+                <li><button> <a href="https://www.lapatria.com/nacional">Nacionales</a> </button></li>             
+                <li><button> <a href="https://www.lapatria.com/politica">Política</a> </button></li>    
+                <li><button> <a href="https://www.lapatria.com/tecnologia">Tecnología</a> </button></li>    
+            </ol>
+        </nav>
+
+        <div >
+            <section>
+                <div class="container">
+                <div class="tituloDerecha">
+                    <div class="h2-a">
+                    <h2 >
                     Hubble y Webb capturan el momento en el que misión de la NASA impacta contra un asteroide
-                </h2>
-                <p>
+                    </h2>
+                </div>
+                </div>
+                <div class="divText-a">
+                <p class="text-a">
                     Por primera vez en la historia, los telescopios Hubble y Webb capturaron un evento astrológico 
                     al mismo momento. Fue la misión de la NASA que impactó contra un asteroide para cambiar su recorrido.
+                    <div class="clasButtoma">
+                        <button class="buttoma">Leer Mas</button>
+                    </div>
                 </p>
-                <button>Leer Mas</button>
+                 </div>
+                </div>
+
             </section>
             <section class="section-b">
-                <h2>
+                <div class="h2-b">
+                <h2 >
                     Explotarlos vs. desviarlos: ¿qué opciones existen para evitar que un asteroide choque con la Tierra?
-                </h2>
-                <p>
+                 </h2>
+                </div>
+                <div class="container-b">
+                <div class="divText">
+                    <p class="text-b">
                     Si en algún momento un asteroide amenaza con impactar la Tierra, ¿por qué no los hacemos explotar en 
                     el espacio, como ocurrió en la película de ciencia ficción "Armageddon"? Expertos de la NASA opinan 
                     que es más favorable tratar de desviarlos. Hace poco, un foro internacional denominado Comisión de 
                     Planificación Espacial reunió a 18 agencias espaciales para evaluar qué sería lo mejor para desviar
                     un asteroide, en función de su tamaño y trayectoria.
-                </p>
-                <button>Read More</button>
+                    </p>
+                 </div>
+                <div class="imgAsteroide">
+                    <img class="imgAsteroide1" src="./img/asteroide.png" alt="">
+                </div>
+                </div>
+
+               <div class="clasButtomb">
+                <button class="buttomb">Read More</button>
+            </div>
+                
+            
+
+
             </section>
             <section class="section-c">
-                <p id="para">Cualquier texto que cambiará de color</p>
-                <button onclick="changeColor('blue');">Azul</button>
-                <button onclick="changeColor('red');">Rojo</button>
+                
+                <div id="para">
+                    <p class="textFooter">Este texto cambiará a el colo que tu escojas</p>
+
+                    <button class="button1 buttonFooter" onclick="changeColor('blue');">Azul</button>
+                    <button class="button2 buttonFooter" onclick="changeColor('white');">Blanco</button>
+                    <button class="button3 buttonFooter" onclick="changeColor('yellow');">Amarillo</button>
+
+                </div>
+
             </section>
+            
         </div>
     </main>
+    
     <script src="js/main.js"></script>
 </body>
 </html>
