@@ -79,7 +79,7 @@ p{
   .slidemenu label:hover{
     cursor: pointer;
     /*color: #666;*/
-    color: azure;
+    color: #000000;
   }
   
   .slidemenu label span{
@@ -137,4 +137,5 @@ p{
   .slidemenu #slide-item-2:checked ~ .slider .bar{ margin-left: 25%; }
   .slidemenu #slide-item-3:checked ~ .slider .bar{ margin-left: 50%; }
   .slidemenu #slide-item-4:checked ~ .slider .bar{ margin-left: 75%; }
+  
   
