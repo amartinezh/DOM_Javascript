@@ -82,14 +82,103 @@
     opacity: 1;
   }
 
-
-  .h2-b {
-   background-color: rgb(216, 50, 50);
-   font-size: 2.3rem;
-   text-align: center;
-    border-bottom: 2px solid black;
+  .divTitleGeneral {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(216, 50, 50);
+    font-size: 3rem;
     color: white;
+    padding: auto;
   }
+  .imgGeneral {
+    width: 40%;
+    background-color: black;
+  }
+  .titleGeneral {
+    align-self: center;
+    width: 75%;
+  }
+
+
+
+
+li {
+  display: inline;
+}
+
+li button {
+  width: 420px;
+  height: 60px;
+  background-color: #666;
+  border: 0;
+  font-size: 2rem;
+  
+}
+
+
+
+
+
+
+  .container {
+    display: flex;
+    border-bottom:4px solid white;
+  }
+
+  .tituloDerecha {
+    text-align: center;
+    width: 40%;
+    height: 240px;
+    background-color: rgb(216, 50, 50);
+    border: 0;
+   }
+
+  .h2-a{
+    margin: auto;
+    color: white;
+    font-size: 2.0rem;
+  }
+
+  .divText-a {
+    display: flex;
+    width: 60%;
+    height: 240px;
+    border: 0;
+    background-color: black;
+  }
+
+  .text-a {
+    text-align: center;
+    margin: auto;
+    font-size: 2rem;
+    color: white;
+    margin-left: 10px;
+  }
+
+  .clasButtoma {
+    padding: 10px;
+    align-self:flex-end;
+  }
+
+  .buttoma {
+    height: 50px;
+    width: 150px;
+    font-size: 1.5rem;
+    background-color: rgb(216, 50, 50);
+    color: white;
+    border: 0;
+  }
+
+
+
+
+
+
+
+
+
+
 
   .container-b {
     position: relative;
@@ -99,20 +188,15 @@
     margin: auto;
   }
 
-  .text {
-    margin: auto;
-    margin-left: 100px;
+  .h2-b {
+    background-color: rgb(216, 50, 50);
+    font-size: 2.3rem;
     text-align: center;
-    width: 50%;
-    font-size: 2rem;
+     border-bottom: 2px solid black;
+     color: white;
+   }
 
-  }
-
-  .imgAsteroide {
-
-  }
-
-  .text {
+  .text-b {
     text-align: center;
     margin-top: 180px;
     margin-left: 85px;
@@ -122,20 +206,57 @@
   .divText{
     border-right: 4px solid white;
   }
-  
-  .buttom {
+
+  .buttomb {
     height: 50px;
     width: 150px;
     font-size: 1.5rem;
     background-color: rgb(216, 50, 50);
     color: white;
-    
+    border: 0;
   }
 
-  .clasButtom {
-    
+  .clasButtomb {
+    display: flex;
+    justify-content: center;
     background-color:black;
+    padding: 10px;
     }
+
+
+
+
+    .section-c {
+      
+      text-align: center;
+      background-color:#666;
+      height: 300px;
+      
+    }
+
+    #para {
+      background-color: rgb(216, 50, 50);
+      font-size: 2rem;
+      width: 300px;
+      margin: auto;
+    }
+
+    .buttonBlue {
+      height: 50px;
+      width: 300px;
+      border-radius: 10px;
+    }
+
+    .buttonRed {
+      height: 50px;
+      width: 300px;
+      border-radius: 10px;
+    }
+
+
+
+
+
   
   .slidemenu #slide-item-1:checked ~ .slider .bar{ margin-left: 0; }
   .slidemenu #slide-item-2:checked ~ .slider .bar{ margin-left: 25%; }
