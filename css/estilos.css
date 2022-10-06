@@ -13,7 +13,7 @@
   .clear{
     clear: both;
   }
-  
+
   
   .slide-toggle{  /*Botones*/
     display: none;
@@ -88,17 +88,21 @@
   .slidemenu .slide-toggle:checked + label{
     opacity: 1;
   }
-  
-  
-  
+
   .slidemenu #slide-item-1:checked ~ .slider .bar{ margin-left: 0; }
   .slidemenu #slide-item-2:checked ~ .slider .bar{ margin-left: 25%; }
   .slidemenu #slide-item-3:checked ~ .slider .bar{ margin-left: 50%; }
   .slidemenu #slide-item-4:checked ~ .slider .bar{ margin-left: 75%; }
   
-<<<<<<< HEAD
-  
-=======
+.mainSection{
+  background-image: url(https://www.zdnet.com/a/img/resize/dfb30f720f16b3476f75d400a9a78b48a2289a06/2022/09/23/93addcc0-258d-4268-8eb7-6e5e7c7df3cc/screen-shot-2022-09-23-at-11-07-38-am.png?auto=webp&width=1200);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+}
+
 main h1{
   color: black;
   text-align: center;
@@ -113,6 +117,8 @@ main h1{
 }
 
 .container .section-a {
+  background-color: aliceblue;
+  opacity: 80%;
   width: 30%;
   padding: 30px;
   border: 1px solid grey;
@@ -123,7 +129,6 @@ main h1{
 .container .section-a:active{
   box-shadow: 10px 10px 8px 10px rgba(6, 1, 48, 0.75);
 }
-
 
 .container .section-a h2{
   padding-bottom: 15px;
@@ -142,10 +147,14 @@ main h1{
  justify-content: center;
 }
 
+.container .section-b{
+  background-color: aliceblue;
+  opacity: 80%;
+}
+.container .section-c{
+  background-color: aliceblue;
+  opacity: 80%;
+}
 .container .section-a button{
   width: 30%;
 }
-/* .section-b{
-  
-} */
->>>>>>> 9e9caabec9ebaf685aa8fbe0ec7a70bbba964089
