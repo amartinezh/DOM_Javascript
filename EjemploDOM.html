@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Practica Javacript Prospercity</title>
+    <title>Ejercicio Practica</title>
     <link rel="shortcut icon" href="#">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Condensed:ital,wght@1,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -39,7 +42,7 @@
 
         <div class="container">
             <section class="section-a">
-                <h2>
+                <h2 id=titulo1">
                     Hubble y Webb capturan el momento en el que misión de la NASA impacta contra un asteroide
                 </h2>
                 <p>
@@ -66,7 +69,21 @@
                 <button onclick="changeColor('blue');">Azul</button>
                 <button onclick="changeColor('red');">Rojo</button>
             </section>
+
+            <input type="button" value="Modo Oscuro">
+
         </div>
+        
+        <label for="dark-mode" clase="dark-mode-button">
+
+            <input id="dark-mode" type="checkbox";
+             onclick="document.documentElement.classList.toggle('dark-mode')">;
+            ver modo oscuro
+        </label>
+
+
+
+
     </main>
     <script src="js/main.js"></script>
 </body>
