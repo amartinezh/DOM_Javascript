@@ -8,11 +8,11 @@
   }
   
   
-  .slide-toggle{
+  .slide-toggle{  /*Botones*/
     display: none;
   }
   
-  .slidemenu{
+  .slidemenu{     /*Contenedor botones*/
     font-family: arial, sans-serif;
     max-width: 600px;
     margin: 50px auto;
@@ -88,4 +88,5 @@
   .slidemenu #slide-item-2:checked ~ .slider .bar{ margin-left: 25%; }
   .slidemenu #slide-item-3:checked ~ .slider .bar{ margin-left: 50%; }
   .slidemenu #slide-item-4:checked ~ .slider .bar{ margin-left: 75%; }
+  
   
