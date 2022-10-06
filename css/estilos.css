@@ -21,9 +21,9 @@
   
   .slidemenu{     /*Contenedor botones*/
     font-family: arial, sans-serif;
-    max-width: 600px;
-    margin: 50px auto;
-    overflow: hidden;
+    max-width: 800px;
+    margin: 40px auto;
+    overflow: visible;
   }
   
   .slidemenu label{
@@ -38,7 +38,12 @@
   
   .slidemenu label:hover{
     cursor: pointer;
+
+    color: rgb(219, 106, 7);
+    transform: scale(1.2);
+
     color: rgba(134, 225, 119, 0.75);
+
   }
   
   .slidemenu label span{
@@ -48,6 +53,7 @@
   
   .slidemenu label .icon{
     font-size: 20px;
+    border: solid 2px rgba(132, 71, 62, 0.858);
     border: solid 2px rgba(6, 1, 48, 0.75);
     text-align: center;
     height: 50px;
@@ -55,7 +61,7 @@
     display: block;
     margin: 0 auto;
     line-height: 50px;
-    border-radius: 50%;
+    border-radius: 20%;
   }
   
   /*Bar Style*/
