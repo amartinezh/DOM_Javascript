@@ -6,5 +6,3 @@ function changeColor(newColor) {
 let firstHeading = document.querySelector('h1');
 
 console.log(firstHeading);
-
-
