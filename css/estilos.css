@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
   }
+
+  .title {
+    font-size: 3rem; color: rgba(6, 1, 48, 0.75);
+    background-color: rgba(134, 225, 119, 0.75);
+    height: 4rem;
+    text-align: center;
+  }
   
   .clear{
     clear: both;
@@ -24,14 +31,14 @@
     text-align: center;
     display: block;
     float: left;
-    color: #333;
+    color: rgba(6, 1, 48, 0.75);
     opacity: 0.2;
   
   }
   
   .slidemenu label:hover{
     cursor: pointer;
-    color: #666;
+    color: rgba(134, 225, 119, 0.75);
   }
   
   .slidemenu label span{
@@ -41,7 +48,7 @@
   
   .slidemenu label .icon{
     font-size: 20px;
-    border: solid 2px #333;
+    border: solid 2px rgba(6, 1, 48, 0.75);
     text-align: center;
     height: 50px;
     width: 50px;
@@ -65,7 +72,7 @@
   .slider .bar{
     width: 25%;
     height: 5px;
-    background: #333;
+    background: rgba(6, 1, 48, 0.75);
     border-radius: 5px;
   }
   
@@ -89,4 +96,56 @@
   .slidemenu #slide-item-3:checked ~ .slider .bar{ margin-left: 50%; }
   .slidemenu #slide-item-4:checked ~ .slider .bar{ margin-left: 75%; }
   
+<<<<<<< HEAD
   
+=======
+main h1{
+  color: black;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container .section-a {
+  width: 30%;
+  padding: 30px;
+  border: 1px solid grey;
+  border-radius: 5%;
+  margin-bottom: 30px;
+}
+
+.container .section-a:active{
+  box-shadow: 10px 10px 8px 10px rgba(6, 1, 48, 0.75);
+}
+
+
+.container .section-a h2{
+  padding-bottom: 15px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.container .section-a p{
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.btn-container{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+}
+
+.container .section-a button{
+  width: 30%;
+}
+/* .section-b{
+  
+} */
+>>>>>>> 9e9caabec9ebaf685aa8fbe0ec7a70bbba964089

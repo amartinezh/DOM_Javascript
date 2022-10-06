@@ -1,38 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practica Javacript Prospercity</title>
     <link rel="shortcut icon" href="#">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
     <header>
-        <nav class="slidemenu"> <!--Contenedor de los botones de arriba-->
+        <section>
+            <h1 class="title">Prosper News</h1>
+        </section>
+        <section>
+            <nav class="slidemenu">
   
-            <!-- Item 1 -->
-            <input type="radio" name="slideItem" id="slide-item-1" class="slide-toggle" checked/>
-            <label for="slide-item-1"><p class="icon">♬</p><span>Home</span></label>
-            
-            <!-- Item 2 -->
-            <input type="radio" name="slideItem" id="slide-item-2" class="slide-toggle"/>
-            <label for="slide-item-2"><p class="icon">★</p><span>About</span></label>
-            
-            <!-- Item 3 -->
-            <input type="radio" name="slideItem" id="slide-item-3" class="slide-toggle"/>
-            <label for="slide-item-3"><p class="icon">✈</p><span>Folio</span></label>
-            
-            <!-- Item 4 -->
-            <input type="radio" name="slideItem" id="slide-item-4" class="slide-toggle"/>
-            <label for="slide-item-4"><p class="icon">✎</p><span>Blog</span></label>
-            
-            <div class="clear"></div>
-            
-            <!-- Bar -->
-            <div class="slider">
-              <div class="bar"></div>
-            </div>
-            
-          </nav>
+                <!-- Item 1 -->
+                <input type="radio" name="slideItem" id="slide-item-1" class="slide-toggle" checked/>
+                <label for="slide-item-1"><p class="icon">♬</p><span>Home</span></label>
+                
+                <!-- Item 2 -->
+                <input type="radio" name="slideItem" id="slide-item-2" class="slide-toggle"/>
+                <label for="slide-item-2"><p class="icon">★</p><span>About</span></label>
+                
+                <!-- Item 3 -->
+                <input type="radio" name="slideItem" id="slide-item-3" class="slide-toggle"/>
+                <label for="slide-item-3"><p class="icon">✈</p><span>Folio</span></label>
+                
+                <!-- Item 4 -->
+                <input type="radio" name="slideItem" id="slide-item-4" class="slide-toggle"/>
+                <label for="slide-item-4"><p class="icon">✎</p><span>Blog</span></label>
+                
+                <div class="clear"></div>
+                
+                <!-- Bar -->
+                <div class="slider">
+                  <div class="bar"></div>
+                </div>
+                
+              </nav>
+        </section>
+        
     </header>
     <main>
         <h1>Bienvenidos a las noticias</h1>
@@ -46,7 +55,9 @@
                     Por primera vez en la historia, los telescopios Hubble y Webb capturaron un evento astrológico 
                     al mismo momento. Fue la misión de la NASA que impactó contra un asteroide para cambiar su recorrido.
                 </p>
-                <button>Leer Mas</button>
+                <div class="btn-container">
+                    <button>Read More</button>
+                </div>
             </section>
             <section class="section-b">
                 <h2>
@@ -59,7 +70,9 @@
                     Planificación Espacial reunió a 18 agencias espaciales para evaluar qué sería lo mejor para desviar
                     un asteroide, en función de su tamaño y trayectoria.
                 </p>
-                <button>Read More</button>
+                <div class="btn-container">
+                    <button>Read More</button>
+                </div>
             </section>
             <section class="section-c">
                 <p id="para">Cualquier texto que cambiará de color</p>
