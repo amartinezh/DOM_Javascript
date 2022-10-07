@@ -135,6 +135,25 @@ main h1{
 .container .section-a button{
   width: 30%;
 }
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+ }
+
+.imagenes {
+  width: 25%;
+  height: 25%;
+  justify-content: center
+}
+
+.imagenes :hover{
+  cursor: pointer;
+  color: #666;
+  transform: scale(1.5);
+  transition: transform .5s;
+}
+
 .section-b{
   
 }
