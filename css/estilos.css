@@ -54,16 +54,14 @@ html {
     text-align: center;
     display: block;
     float: left;
-    /*color: #333; */
-    color: #ccc;
+    color: #333;
     opacity: 0.2;
   
   }
   
   .slidemenu label:hover{
     cursor: pointer;
-    /*color: #666;*/
-    color: azure;
+    color: #666;    
   }
   
   .slidemenu label span{
