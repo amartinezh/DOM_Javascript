@@ -45,6 +45,9 @@ html {
     max-width: 125rem;
     margin: 5rem auto;
     overflow: hidden;
+    background-color: #0062d2;
+    padding: 20px;
+    
   }
   
   .slidemenu label{
@@ -52,14 +55,16 @@ html {
     text-align: center;
     display: block;
     float: left;
-    color: #333;
+    /*color: #333; */
+    color: #ccc;
     opacity: 0.2;
   
   }
   
   .slidemenu label:hover{
     cursor: pointer;
-    color: #666;
+    /*color: #666;*/
+    color: azure;
   }
   
   .slidemenu label span{
