@@ -25,7 +25,20 @@ function toggleText() {
 function changeColor(newColor) {
     const elem = document.getElementById('para');
     elem.style.color = newColor;
-  }
+}
+
+
+const menuHamIcon=document.querySelector('.menu-ham');
+const mobileMenu=document.querySelector('.mobile-menu');
+
+
+menuHamIcon.addEventListener('click', toggleMobileMenu);
+mobileMenu.addEventListener('click', toggleMobileMenu);
+
+function toggleMobileMenu(){
+  
+  mobileMenu.classList.toggle('inactive');
+}
   
 let firstHeading = document.querySelector('h1');
 
