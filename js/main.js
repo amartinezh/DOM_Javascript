@@ -16,7 +16,7 @@ function toggleText() {
   }
   more_text.classList.contains("show");
   if(more_text.classList.toggle("show")){
-    read.innerHTML = "Read Ress"
+    read.innerHTML = "Read Less"
   }else {
     read.innerHTML = "Read More"
   }

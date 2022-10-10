@@ -8,16 +8,12 @@ html {
   font-size: 62.5%;
 }
 
-.encabezado {
-  display: grid;
-  grid-template-columns: 2fr 10fr;
-}
 
 .inactive {
   display: none;
 }
 
-.logo {
+.logo-menu-ham {
   padding: 20px;
   
 }
@@ -27,15 +23,16 @@ html {
 }
 
 .body {
-  background-image: linear-gradient( 135deg, #CE9FFC 10%, #7367F0 100%);
+  /*background-image: linear-gradient( 135deg, #CE9FFC 10%, #7367F0 100%);*/
 }
 
 .principal{
   border-radius: 2rem;
-  background-color: #AE97CA;
+  /* background-color: #AE97CA; */
   margin: 5rem;
   padding: 5rem;
   font-size: 2rem;
+  
 }
   
   .clear{
@@ -49,8 +46,8 @@ html {
   
   .slidemenu{
     font-size: 3rem;
-    background-color: #AE97CA;
-    border-radius: 2rem;
+    /*background-color: #AE97CA;
+    border-radius: 2rem; */
     font-family: arial, sans-serif;
     max-width: 125rem;
     margin: 5rem auto;
@@ -93,7 +90,7 @@ html {
   
   .slider{
     width: 100%;
-    height: 5rem;
+   /* height: 5rem; */
     display: block;
     background: #ccc;
     margin-top: 1rem;
@@ -150,7 +147,7 @@ html {
 
   .footer {
     border-radius: 2rem;
-    background-color: #AE97CA;
+   /* background-color: #AE97CA;*/
     margin: 5rem;
     padding: 5rem;
     font-size: 2rem;
