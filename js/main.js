@@ -5,7 +5,7 @@ let more_text = document.getElementById("more_text");
 let read = document.getElementById("read")
 
 leer.addEventListener("click", toggleText);
-read.addEventListener("click", toggleText);
+read.addEventListener("click", toggleText2);
 
 function toggleText() {
   mas_texto.classList.contains("show");
@@ -14,6 +14,10 @@ function toggleText() {
   }else {
     leer.innerHTML = "Leer Mas"
   }
+
+}
+
+function toggleText2() {      
   more_text.classList.contains("show");
   if(more_text.classList.toggle("show")){
     read.innerHTML = "Read Ress"
