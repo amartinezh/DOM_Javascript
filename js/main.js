@@ -4,16 +4,20 @@ let leer = document.getElementById("leer");
 let more_text = document.getElementById("more_text");
 let read = document.getElementById("read")
 
-leer.addEventListener("click", toggleText);
-read.addEventListener("click", toggleText);
+leer.addEventListener("click", toggleText1);
+read.addEventListener("click", toggleText2);
 
-function toggleText() {
+function toggleText1() {
   mas_texto.classList.contains("show");
   if(mas_texto.classList.toggle("show")){
     leer.innerHTML = "Leer Menos"
   }else {
     leer.innerHTML = "Leer Mas"
   }
+  
+}
+
+function toggleText2() {
   more_text.classList.contains("show");
   if(more_text.classList.toggle("show")){
     read.innerHTML = "Read Less"
@@ -21,6 +25,8 @@ function toggleText() {
     read.innerHTML = "Read More"
   }
 }
+
+
 
 function changeColor(newColor) {
     const elem = document.getElementById('para');

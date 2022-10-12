@@ -13,6 +13,10 @@ html {
   display: none;
 }
 
+.logo {
+  width: 150px;
+}
+
 .logo-menu-ham {
   padding: 20px;
   
