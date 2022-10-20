@@ -202,6 +202,66 @@ html {
   }
 
 
+  .section-b {
+    background-color: #333;
+  }
+
+  #titulo2 {
+    color: white;
+    text-align: center;
+    background-color: #FC3C23 ;
+    font-size: 3.5rem;
+    margin: 30px;
+    padding: 5px;
+  }
+
+  .parrafoSectionB {
+    color: white;
+    font-size: 2.5rem;
+  }
+
+  .parrafoMore1{
+    color: white ;
+    font-size: 2.5rem;
+    
+  }
+
+  .parrafoMore2{
+    color: white;
+    font-size: 2.5rem;
+  }
+
+ .more_text {
+  text-align: center;
+  
+ }
+
+ .read {
+  
+  background-color: #BA1E68 ;
+ }
+
+
+
+ .section-c {
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+  background-color: #FC3C23;
+  height: auto;
+  padding: 15px;
+  margin: 0px 300px;
+  
+ }
+
+ .img2 {
+  
+  border: 4px solid #FC3C23;
+ }
+
+
+
+
   @media (max-width: 640px) {
     
     .encabezado {
